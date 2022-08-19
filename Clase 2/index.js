@@ -105,10 +105,19 @@ if(respuestaTarea.toLowerCase() === "si" && respuestaCasa.toLowerCase() === "si"
   alert("no puedes salir");
 } */
 
-let nombre = prompt("Ingresa el nombre");
+/* let nombre = prompt("Ingresa el nombre");
 
 if((nombre !== "") && (nombre === "andres" || nombre === "ANDRES")){
   alert("Hola Andres");
 }else{
   alert("valor incorrecto");
+} */
+
+let respuestaTarea = prompt("Terminaste la tarea?");
+let respuestaCasa = prompt("Organizaste la casa?");
+
+if(respuestaTarea.toLowerCase() === "si" && respuestaCasa.toLowerCase() === "si"){
+  alert("Puedes salir a jugar");
+}else{
+  alert("no puedes salir");
 }
