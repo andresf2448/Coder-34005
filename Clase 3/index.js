@@ -127,7 +127,7 @@ switch(moneda){
     break; 
 } */
 
-let entrada = prompt("Ingresar un nombre").toUpperCase();
+/* let entrada = prompt("Ingresar un nombre").toUpperCase();
 
 while (entrada != "ESC") {
   switch (entrada) {
@@ -142,4 +142,37 @@ while (entrada != "ESC") {
       break;
   }
   entrada = prompt("Ingresar un nombre");
+} */
+
+/* let numero;
+
+do{
+  numero = prompt("Ingrese el numero");
+  alert(numero);
+}while(parseInt(numero)); */
+
+/* let repetir = false;
+
+while(repetir){
+  console.log("entramos");
 }
+
+do{
+  console.log("entramos");
+}while(repetir); */
+
+/* let i = 0;
+
+while(i < 10){
+  console.log(i);
+  i++;
+} */
+
+let suma=0;
+
+do {
+    suma +=1; //suma++  suma = suma + 1
+    console.log(suma);
+} while (suma<10);
+
+console.log("Salio del bucle");
