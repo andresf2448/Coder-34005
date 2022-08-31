@@ -115,7 +115,7 @@ for(const key in persona){
 const persona1 = new Persona("Marina", 23, "AV");
 persona1.hablar(); */
 
-/* class Producto{
+class Producto{
   constructor(nombre, precio, cantidad){
     this.nombre = nombre;
     this.precio = precio;
@@ -131,7 +131,7 @@ const producto1 = new Producto("Monitor", 5000, 5);
 
 console.log(producto1);
 producto1.vender();
-console.log(producto1); */
+console.log(producto1);
 
 
 /* function Producto(info){
