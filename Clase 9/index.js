@@ -88,7 +88,7 @@ formulario.addEventListener("submit", (e) => {
     inputs[0].value = "";
   }
 }) */
-let productos = [];
+/* let productos = [];
 
 let contenedor = document.getElementById("contenedor");
 let formulario = document.getElementById("formulario");
@@ -106,4 +106,22 @@ formulario.addEventListener("submit", (e) => {
   });
 
   inputs[0].value = "";
+}); */
+
+let contenedor = document.getElementById("contenedor");
+let formulario = document.getElementById("formulario");
+
+formulario.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let inputs = e.target.children;
+
+  if(!inputs[0].value.includes("@")){
+    contenedor.innerHTML = "";
+    let div = document.createElement("div");
+    div.innerHTML = "Correo inválido";
+    div.className = "rojo";
+    contenedor.append(div);
+  }else{
+    contenedor.innerHTML = "";
+  }
 });
