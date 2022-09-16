@@ -152,11 +152,48 @@ JSON.parse(elemento) //convertir el elemento de formato json a formato de elemen
 */
 
 //Formularios
-let formulario = document.getElementById("formulario");
+/* let formulario = document.getElementById("formulario");
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
 
   let inputs = e.target.children;
   console.log(inputs[0].value);
   console.log(inputs[1].value);
+}) */
+/* const pedirDatos = () => {
+  let nombre = prompt("Ingrese el nombre");
+  return nombre;
+}
+
+let boton = document.getElementById("boton");
+boton.addEventListener("click", () => {
+  let nombre = pedirDatos();
+
+  let div = document.createElement("div");
+  div.innerHTML = nombre;
+  document.body.append(div);
 })
+
+let nombre;
+
+const pedirDatos = () => {
+  nombre = prompt("Ingrese el nombre");
+}
+
+let boton = document.getElementById("boton");
+boton.addEventListener("click", () => {
+  pedirDatos();
+
+  let div = document.createElement("div");
+  div.innerHTML = nombre;
+  document.body.append(div);
+}) */
+/* let boton = document.getElementById("boton");
+boton.addEventListener("click", () => {
+  pedirDatos();
+
+  let div = document.createElement("div");
+  div.innerHTML = nombre;
+
+  document.body.append(div);
+}) */
