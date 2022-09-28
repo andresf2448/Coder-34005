@@ -1,5 +1,5 @@
 //SWEETALERT
-// let boton = document.getElementById("boton");
+let boton = document.getElementById("boton");
 /* boton.addEventListener("click", () => {
   Swal.fire({
     title: "Error!",
@@ -104,13 +104,13 @@
   }).showToast();
 }); */
 
-/* boton.addEventListener("click", () => {
+boton.addEventListener("click", () => {
   Toastify({
     text: "Probando toast!",
     duration: 3000,
     className: 'notificacion'
 }).showToast();
-}); */
+});
 
 /* boton.addEventListener("click", () => {
   Toastify({
@@ -165,7 +165,7 @@ console.log(hoy.setLocale("en").toLocaleString(DateTime.DATE_FULL)); */
 // const resta = hoy.minus({month: 1, days: 10});
 // console.log(resta.toLocaleString(DateTime.DATETIME_SHORT));
 
-const DateTime = luxon.DateTime;
+/* const DateTime = luxon.DateTime;
 const Interval = luxon.Interval;
 const hoy = DateTime.now();
 const navidad = DateTime.local(2022, 12, 25);
@@ -173,4 +173,4 @@ const navidad = DateTime.local(2022, 12, 25);
 const i = Interval.fromDateTimes(hoy, navidad);
 console.log(i.length("days"));
 console.log(i.length("hours"));
-console.log(i.length("minutes"));
+console.log(i.length("minutes")); */
